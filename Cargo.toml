@@ -1,0 +1,10 @@
+[package]
+name = "multicrate"
+version = "0.1.0"
+authors = ["neptunepink <purpleposeidon@gmail.com>"]
+
+[dependencies.bobcrate]
+path = "src/bobcrate"
+
+[dependencies.fredcrate]
+path = "src/fredcrate"
